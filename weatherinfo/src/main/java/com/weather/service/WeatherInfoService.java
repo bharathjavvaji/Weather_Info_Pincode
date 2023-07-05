@@ -22,7 +22,7 @@ public class WeatherInfoService {
 	@Autowired
 	private LocationRepository locationRepository;
 	private RestTemplate restTemplate = new RestTemplate();
-	private final String openWeatherMapApiKey = "7660be412240f5fdf4ae8bdeb7595a14";
+	private final String openWeatherMapApiKey = "7660be4###################";
 
 	public WeatherInfo saveWeather(WeatherInfo weatherInfo) {
 		return weatherInfoRepository.save(weatherInfo);
